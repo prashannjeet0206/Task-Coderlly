@@ -1,0 +1,70 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.payment-main {
+  background-color: white;
+  border: 1px solid black;
+  width: 250px;
+  height: 100px;
+}
+
+.box1 {
+  background-color: tomato;
+  font-size: large;
+  color: black;
+  font-weight: bolder;
+  padding: 2px;
+  text-align: center;
+}
+
+.para-amount {
+  font-size: 20px;
+  padding-left: 15px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.flag-main {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #e2e8f0;
+  border: 2px solid black;
+  width: 200px;
+  padding: 5px;
+  gap: 15px;
+}
+
+.img-box {
+  height: 30px;
+  width: 30px;
+}
+
+.img-pic {
+  height: 100%;
+  width: 100%;
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 24px;
+  border: 2px solid indigo;
+  align-items: center;
+  background-color: white;
+  padding: 5px;
+  padding-bottom: 1px;
+  padding-left: 12px;
+  gap: 8px;
+  width: 155px;
+}
+
+.provider-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.cancel {
+  color: red;
+}
